@@ -1,7 +1,7 @@
 var isSymbol = require('./isSymbol');
 
 /** Used as references for the maximum length and index of an array. */
-var MAX_ARRAY_LENGTH = 4294967295,
+var MAX_ARRAY_LENGTH = 2147483647,
     MAX_ARRAY_INDEX = MAX_ARRAY_LENGTH - 1;
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
